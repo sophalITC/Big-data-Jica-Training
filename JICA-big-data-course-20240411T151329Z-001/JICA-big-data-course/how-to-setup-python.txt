@@ -1,0 +1,37 @@
+# This creates a special environment to use the dsm2dtm codes.
+albertus-stephanus.louw-.b4@elms.hokudai.ac.jp
+
+Step 1. install miniconda
+https://docs.conda.io/en/latest/miniconda.html
+At the above link you can choose the version that is right for your PC (based on your OS -- if you use windows, probably the first one: miniconda3 64bit windows)
+download the installer, and then run the installer, to install miniconda. (accept all defaults, except if you know you want to change them)
+
+Step 2. Open the new program    'Anaconda Prompt'    program that was installed. 
+In this prompt write each line followed by 'enter'  each time it might ask y/n if that happens, type y and click enter again.
+
+conda create --name dsm_env python=3.9              (then click enter)
+
+conda activate dsm_env			        (then click enter)
+
+conda install -c conda-forge notebook scipy matplotlib rasterio opencv         (then click enter)
+----------------------------------------------------------------------------------
+finally to start jupyter notebook just type in prompt:
+jupyter notebook
+#################################################################################
+
+
+# Step 2 option 2 (if option 1 didn't work) 
+in shared folder JICA-big-data-course
+download the file called env_dsm2dtm.yml
+
+then in anaconda prompt put this
+conda env create -f <path-to-file>
+
+(<path-to-file> should be the file path to where you saved the .yml file. for example, if I saved it in downloads on windows, I can write this)
+conda env create -f "C:\Users\user\Downloads\env_dsm2dtm.yml"
+
+then type 
+conda activate dsm2dtm
+------------------------------------------
+finally to start jupyter notebook just type in prompt:
+jupyter notebook

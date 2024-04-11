@@ -1,0 +1,13 @@
+
+# for DEM data
+https://www.eorc.jaxa.jp/ALOS/en/dataset/ori_e.htm
+
+# Links to the code
+https://github.com/mprakhar/DSM2DTM 
+
+
+link to the GEE script
+https://code.earthengine.google.com/f41ca185a386cdc320aa1ba1d22f7e30 
+
+all the folders
+https://drive.google.com/drive/folders/1Ccegrwdw204vFCoKU1tuTidgAPViVLsD?usp=sharing
