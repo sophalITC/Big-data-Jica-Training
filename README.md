@@ -1,1 +1,1 @@
-This is the shot training course that I have attended via online program (due to covid-19) from Hokkaido university on the topic of Big data and Sustainable development goals. 
+This is the short training course that I attended online (due to COVID-19) from Hokkaido University, focusing on the topic of Big Data and Sustainable Development Goals.
